@@ -46,7 +46,9 @@ namespace _111_1MIDDEMO1 {
         }
 
         protected void btn_Submit_Click(object sender, EventArgs e)
+
         {
+            Response.Redirect(Web01.aspx);
             pl_Msg.Visible = true;
             lb_Msg.Text = "";
             if (tb_Email.Text == "")
